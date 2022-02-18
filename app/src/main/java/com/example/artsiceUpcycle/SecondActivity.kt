@@ -51,9 +51,8 @@ class SecondActivity : AppCompatActivity() {
 
     }
     fun offAlarm(view: View){
-        if (!a) {
             android.os.Process.killProcess(android.os.Process.myPid())
-        }
+
     }
 }
 
