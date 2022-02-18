@@ -19,7 +19,6 @@ class SecondActivity : AppCompatActivity() {
     private lateinit var tp: TimePicker
     private lateinit var pendingIntent: PendingIntent
     private lateinit var alarmManager: AlarmManager
-    private var a: Boolean = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,7 +44,6 @@ class SecondActivity : AppCompatActivity() {
                 else
                     clock += clock + 1000 * 60 * 60 * 24 - 10000
             }
-            a = false
             alarmManager.set(AlarmManager.RTC_WAKEUP, clock, pendingIntent)
             Toast.makeText(this, "Alarm is on", Toast.LENGTH_SHORT).show()
 
