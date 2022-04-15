@@ -4,4 +4,10 @@
     <string name="todo1">TODO</string>
     <string name="textview">TextView</string>
     <string name="todo2">TODO</string>
+    <string name="info">Узнать погоду в городе</string>
+    <string name="StringInfo">Введите город</string>
+    <string name="button_info">Узнать</string>
+    <string name="hint_StringInfo">Введите город</string>
+    <string name="ButtonToWeather">TODO</string>
+
 </resources>

@@ -20,5 +20,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, SecondActivity::class.java)
         startActivity(intent)
     }
+    fun toWeather(view: View) {
+        val intent = Intent(this, WeatherAppActivity::class.java)
+        startActivity(intent)
+    }
 
 }

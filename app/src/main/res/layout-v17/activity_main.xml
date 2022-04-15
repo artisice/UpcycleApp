@@ -43,19 +43,37 @@
 
     <ImageButton
         android:id="@+id/buttonToNext"
-        android:layout_width="94dp"
-        android:layout_height="88dp"
+        android:layout_width="84dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="92dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="120dp"
         android:background="#000000"
         android:contentDescription="@string/todo"
         android:onClick="toNext"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textClock"
+        app:layout_constraintVertical_bias="0.368"
         app:srcCompat="@drawable/untilted8"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageButton
+        android:id="@+id/ButtonToWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="73dp"
+        android:background="@color/black"
+        android:contentDescription="@string/ButtonToWeather"
+        android:onClick="toWeather"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/buttonToNext"
+        app:layout_constraintTop_toBottomOf="@+id/textClock"
+        app:layout_constraintVertical_bias="0.428"
+        app:srcCompat="@drawable/weatherbtnport"
         tools:ignore="UsingOnClickInXml" />
 
 
